@@ -1,0 +1,17 @@
+#logoimg {
+  border-radius: 50%;
+  object-fit: contain;
+  background-color: #04aa6d;
+}
+
+#logoimg:hover {
+  box-shadow: 0 16px 16px 16px #4fc2dc4d;
+}
+
+.logo {
+  text-align: center;
+  font-size: larger;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", "Geneva", "Verdana", "sans-serif";
+  color: black;
+}

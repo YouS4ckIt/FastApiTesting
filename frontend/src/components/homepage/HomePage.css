@@ -1,0 +1,113 @@
+.title-h1 {
+  font-size: var(--font-size);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.post-card-columns {
+  background-color: #04aa6d15;
+  /* padding-top: 1%; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  gap: 1rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #04aa6d15;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #04aa6df1;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #04aa6ddd;
+}
+
+.post-card {
+  /* Add shadows to create the "card" effect */
+  background-color: #04aa6d11;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.342);
+  transition: 0.3s;
+  display: inline-block;
+  /*text follows image*/
+  margin-bottom: 16px;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(15px);
+  border: 1px solid #04aa6d11;
+  height: 500px;
+  overflow-y: auto;
+}
+
+.post-card:hover {
+  box-shadow: 0 8px 16px 0 #4fc2dc4d;
+}
+
+.post-card::-webkit-scrollbar-track {
+  background: #ffffff00;
+}
+
+.post-card img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.post-card h1 {
+  font-size: var(--font-size);
+  text-align: center;
+  color: var(--header-color);
+}
+
+.post-card-text {
+  padding: 2px 16px;
+  color: #04aa6df1;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #0c0c0c8c;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ef0000;
+  width: 70%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
